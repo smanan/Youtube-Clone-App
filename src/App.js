@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Box } from '@mui/system';
+import { Box } from '@mui/material';
 import Navbar from './components/Navbar';
 import ChannelDetail from './components/ChannelDetail';
 import VideoDetail from './components/VideoDetail';
