@@ -1,11 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
-import Navbar from './components/Navbar';
-import ChannelDetail from './components/ChannelDetail';
-import VideoDetail from './components/VideoDetail';
-import Feed from './components/Feed';
-import SearchFeed from './components/SearchFeed';
+
+import { Navbar , Feed, VideoDetail, ChannelDetail , SearchFeed , Sidebar} from './components';
+
 // import { Feed } from '@mui/icons-material';
 
 const App = () => {
